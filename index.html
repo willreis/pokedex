@@ -1,0 +1,289 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokedex</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2 class="title">What Pokémon are you looking for?</h2>
+            </div>
+        </div>
+        <form class="form-search">
+            <div class="form-row">
+                <div class="col-md-4 offset-md-4">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text search-input-icon"><i class="fas fa-search"></i></div>
+                        </div>
+                        <input type="search" class="form-control search-input">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="poke-types-buttons">
+                    <button type="button" class="btn btn-primary btn-type grass-background">Grass</button>
+                    <button type="button" class="btn btn-primary btn-type fire-background">Fire</button>
+                    <button type="button" class="btn btn-primary btn-type water-background">Water</button>
+                    <button type="button" class="btn btn-primary btn-type electric-background">Electric</button>
+                    <button type="button" class="btn btn-primary btn-type ground-background">Ground</button>
+                    <button type="button" class="btn btn-primary btn-type rock-background">Rock</button>
+                </div>
+            </div>
+        </div>
+        <div class="row pokemon-list">
+
+            <div class="col-md-3">
+                <div class="card grass-card-shadow">
+                    <div class="card-body grass-background">
+                        <p class="card-poke-number">#001</p>
+                        <p class="pokemon-name">Bulbasaur</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type grass-background-dark btn-type-card">Grass</button>
+                                <button type="button" class="btn btn-primary btn-type grass-background-dark btn-type-card">Poison</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/bulbasaur.png" alt="Bulbasaur">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card grass-card-shadow">
+                    <div class="card-body grass-background">
+                        <p class="card-poke-number">#002</p>
+                        <p class="pokemon-name">Ivysaur</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type grass-background-dark btn-type-card">Grass</button>
+                                <button type="button" class="btn btn-primary btn-type grass-background-dark btn-type-card">Poison</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/ivysaur.png" alt="Ivysaur">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card grass-card-shadow">
+                    <div class="card-body grass-background">
+                        <p class="card-poke-number">#003</p>
+                        <p class="pokemon-name">Venusaur</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type grass-background-dark btn-type-card">Grass</button>
+                                <button type="button" class="btn btn-primary btn-type grass-background-dark btn-type-card">Poison</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/venusaur.png" alt="Venusaur">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card water-card-shadow">
+                    <div class="card-body water-background">
+                        <p class="card-poke-number">#004</p>
+                        <p class="pokemon-name">Squirtle</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type water-background-dark btn-type-card">Water</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/squirtle.png" alt="Squirtle">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card water-card-shadow">
+                    <div class="card-body water-background">
+                        <p class="card-poke-number">#005</p>
+                        <p class="pokemon-name">Wartotle</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type water-background-dark btn-type-card">Water</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/wartotle.png" alt="Wartotle">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card water-card-shadow">
+                    <div class="card-body water-background">
+                        <p class="card-poke-number">#006</p>
+                        <p class="pokemon-name">Blastoise</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type water-background-dark btn-type-card">Water</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/blastoise.png" alt="Blastoise">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card fire-card-shadow">
+                    <div class="card-body fire-background">
+                        <p class="card-poke-number">#007</p>
+                        <p class="pokemon-name">Charmander</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type fire-background-dark btn-type-card">Fire</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/charmander.png" alt="Charmander">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card fire-card-shadow">
+                    <div class="card-body fire-background">
+                        <p class="card-poke-number">#008</p>
+                        <p class="pokemon-name">Charmeleon</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type fire-background-dark btn-type-card">Fire</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/charmeleon.png" alt="Charmeleon">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card fire-card-shadow">
+                    <div class="card-body fire-background">
+                        <p class="card-poke-number">#009</p>
+                        <p class="pokemon-name">Charizard</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type fire-background-dark btn-type-card">Fire</button>
+                                <button type="button" class="btn btn-primary btn-type fire-background-dark btn-type-card">Flying</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/charizard.png" alt="Charizard">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card electric-card-shadow">
+                    <div class="card-body electric-background">
+                        <p class="card-poke-number">#025</p>
+                        <p class="pokemon-name">Pikachu</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type electric-background-dark btn-type-card">Electric</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/pikachu.png" alt="Pikachu">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card ground-card-shadow">
+                    <div class="card-body ground-background">
+                        <p class="card-poke-number">#026</p>
+                        <p class="pokemon-name">Sandshrew</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type ground-background-dark btn-type-card">Ground</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/sandshrew.png" alt="Sandshrew">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card rock-card-shadow">
+                    <div class="card-body rock-background">
+                        <p class="card-poke-number">#028</p>
+                        <p class="pokemon-name">Onix</p>
+                        <div class="card-content-poke">
+                            <div class="card-buttons-type">
+                                <button type="button" class="btn btn-primary btn-type rock-background-dark btn-type-card">Rock</button>
+                                <button type="button" class="btn btn-primary btn-type rock-background-dark btn-type-card">Ground</button>
+                            </div>
+                            <div class="pokemon-images">
+                                <figure>
+                                    <img src="img/onix.png" alt="Onix">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/979e37106e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

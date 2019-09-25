@@ -1,0 +1,157 @@
+/*Colors*/
+
+
+/*Grass*/
+
+.grass {
+    color: #3a997f
+}
+
+.grass-background {
+    background-color: #3a997f;
+}
+
+.btn.grass-background:hover {
+    background-color: #266453;
+}
+
+.grass-background-dark,
+.grass-background-dark:hover {
+    background-color: #266453;
+}
+
+.grass-card-shadow {
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(38, 100, 83, 0.75);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(38, 100, 83, 0.75);
+    box-shadow: 0px 7px 15px 0px rgba(38, 100, 83, 0.75)
+}
+
+
+/*Fire*/
+
+.fire {
+    color: #da5e50
+}
+
+.fire-background {
+    background-color: #da5e50
+}
+
+.btn.fire-background:hover {
+    background-color: #8e3d34
+}
+
+.fire-background-dark,
+.fire-background-dark:hover {
+    background-color: #8e3d34
+}
+
+.fire-card-shadow {
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(218, 94, 80, 0.75);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(218, 94, 80, 0.75);
+    box-shadow: 0px 7px 15px 0px rgba(218, 94, 80, 0.75)
+}
+
+
+/*Water*/
+
+.water {
+    color: #57acf6;
+}
+
+.water-background {
+    background-color: #57acf6;
+}
+
+.btn.water-background:hover {
+    background-color: #2e6698;
+}
+
+.btn.water-background-dark,
+.btn.water-background-dark:hover {
+    background-color: #2e6698;
+}
+
+.water-card-shadow {
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(46, 102, 152, 0.75);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(46, 102, 152, 0.75);
+    box-shadow: 0px 7px 15px 0px rgba(46, 102, 152, 0.75)
+}
+
+
+/*Electric*/
+
+.electric {
+    color: #d6ad3d;
+}
+
+.electric-background {
+    background-color: #d6ad3d;
+}
+
+.btn.electric-background:hover {
+    background-color: #8b7128;
+}
+
+.btn.electric-background-dark,
+.btn.electric-background-dark:hover {
+    background-color: #8b7128;
+}
+
+.electric-card-shadow {
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(214, 173, 61, 0.75);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(214, 173, 61, 0.75);
+    box-shadow: 0px 7px 15px 0px rgba(214, 173, 61, 0.75)
+}
+
+
+/*Ground*/
+
+.ground {
+    color: #854419;
+}
+
+.ground-background {
+    background-color: #854419;
+}
+
+.btn.ground-background:hover {
+    background-color: #572c10;
+}
+
+.btn.ground-background-dark,
+.btn.ground-background-dark:hover {
+    background-color: #572c10;
+}
+
+.ground-card-shadow {
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(133, 68, 25, 0.75);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(133, 68, 25, 0.75);
+    box-shadow: 0px 7px 15px 0px rgba(133, 68, 25, 0.75)
+}
+
+
+/*Rock*/
+
+.rock {
+    color: #595335;
+}
+
+.rock-background {
+    background-color: #595335;
+}
+
+.btn.rock-background:hover {
+    background-color: #3a3623;
+}
+
+.btn.rock-background-dark,
+.btn.rock-background-dark:hover {
+    background-color: #3a3623;
+}
+
+.rock-card-shadow {
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(89, 83, 53, 0.75);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(89, 83, 53, 0.75);
+    box-shadow: 0px 7px 15px 0px rgba(89, 83, 53, 0.75)
+}
